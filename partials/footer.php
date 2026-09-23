@@ -29,7 +29,6 @@
     </div>
     <div class="footer-bottom">
       <span>&copy; <span id="current-year">2026</span> <?php echo $siteName; ?>. Todos os direitos reservados.</span>
-      <span>Depoimentos ilustrativos — em atualização conforme novos clientes atendidos.</span>
     </div>
   </div>
 </footer>

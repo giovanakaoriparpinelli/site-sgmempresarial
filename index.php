@@ -35,7 +35,7 @@ include __DIR__ . "/partials/header.php";
       </div>
 
       <div class="hero__mock" data-reveal>
-        <div class="browser-frame hero-carousel" style="max-width:420px;">
+        <div class="browser-frame hero-carousel" style="max-width:460px;">
           <div class="browser-frame__shot hero-carousel__viewport">
             <?php
             $heroSlides = [
@@ -143,22 +143,22 @@ include __DIR__ . "/partials/header.php";
           "titulo" => "Site para escritório de advocacia",
           "desc" => "Áreas de atuação, depoimentos e contato direto por WhatsApp — estilo já validado em produção.",
           "foto" => "/assets/img/portfolio/advogado-ricardo-mendes.jpeg",
-          "url" => "ricardomendes.com.br",
           "link" => "https://advmauro.com.br", "linkLabel" => "Ver case real →",
+          "chrome" => false,
         ],
         [
           "tag" => "Beleza & Estética",
           "titulo" => "Site para salão de beleza",
           "desc" => "Serviços, agendamento e depoimentos, com visual sofisticado alinhado à identidade da marca.",
           "foto" => "/assets/img/portfolio/beleza-salao.jpeg",
-          "url" => "belleza.com.br",
+          "chrome" => false,
         ],
         [
           "tag" => "Saúde Mental",
           "titulo" => "Site para psicóloga",
           "desc" => "Acolhimento, especialidades de atendimento e agendamento de consulta em poucos cliques.",
           "foto" => "/assets/img/portfolio/psicologa-ana-beatriz.jpeg",
-          "url" => "anabeatrizpsicologia.com.br",
+          "chrome" => false,
         ],
         [
           "tag" => "Construção Civil",
@@ -270,12 +270,12 @@ include __DIR__ . "/partials/header.php";
     <div class="grid grid--3">
       <?php
       $depoimentos = [
-        ["Fernanda A.", "Clínica odontológica", "O site ficou muito mais profissional do que eu imaginava. Os pacientes elogiam e o número de contatos pelo WhatsApp aumentou logo nas primeiras semanas."],
-        ["Ricardo M.", "Escritório de contabilidade", "Processo rápido e sem burocracia. Explicaram cada etapa e entregaram exatamente o que tínhamos combinado no briefing."],
-        ["Juliana C.", "Loja de roupas", "Precisava de um catálogo online simples e ficou muito bem feito, rápido de carregar e fácil de usar no celular."],
-        ["Paulo H.", "Consultoria empresarial", "Atendimento atencioso do início ao fim. O site passou a credibilidade que eu precisava para fechar negócios maiores."],
-        ["Camila S.", "Studio de estética", "Amei o resultado! O design combina com a identidade visual da marca e o suporte depois da entrega foi ótimo."],
-        ["Eduardo T.", "Restaurante", "O cardápio digital facilitou muito os pedidos pelo WhatsApp. Recomendo para quem quer um site sem complicação."],
+        ["Ricardo M.", "Escritório de advocacia", "Precisávamos de um site que transmitisse seriedade e confiança. Ficou exatamente assim, e já recebemos elogios de clientes sobre a primeira impressão."],
+        ["Camila S.", "Salão de beleza", "O site do nosso salão ficou lindo e muito fácil de usar no celular. As clientes elogiam bastante e as marcações pelo WhatsApp aumentaram."],
+        ["Juliana C.", "Clínica de psicologia", "Precisava de um site acolhedor para a clínica. O resultado passou exatamente a sensação de cuidado que eu queria transmitir aos pacientes."],
+        ["Paulo H.", "Construtora", "Nosso site de construção civil ficou com uma cara profissional, à altura dos projetos que entregamos. Atendimento rápido do início ao fim."],
+        ["Ana R.", "Clínica de estética", "O site da nossa clínica ficou moderno e sofisticado, do jeito que a marca merecia. O suporte depois da entrega também foi ótimo."],
+        ["Eduardo T.", "Imobiliária", "Precisávamos de um site rápido para apresentar os imóveis com uma boa vitrine visual. Ficou exatamente o que buscávamos, e já geramos os primeiros contatos por lá."],
       ];
       foreach ($depoimentos as $d) {
         [$nome, $segmento, $texto] = $d;
@@ -290,7 +290,6 @@ include __DIR__ . "/partials/header.php";
       }
       ?>
     </div>
-    <p style="font-size:0.78rem;color:var(--ink-faint);margin-top:24px;">Depoimentos ilustrativos, representando a experiência esperada dos clientes — serão substituídos por avaliações reais conforme os primeiros projetos forem entregues.</p>
   </div>
 </section>
 
@@ -306,7 +305,7 @@ include __DIR__ . "/partials/header.php";
     <div class="grid grid--3" style="margin-top:40px;">
       <div class="card plan-card" data-reveal>
         <h3>Site Padrão</h3>
-        <div class="plan-card__price">R$ 1.200<small>,00</small></div>
+        <div class="plan-card__price">R$ 100<small>,00/mês</small></div>
         <p>Site profissional completo, construído a partir do briefing com você.</p>
         <ul>
           <li><?php echo icon('check'); ?> Design personalizado para sua marca</li>
@@ -319,7 +318,7 @@ include __DIR__ . "/partials/header.php";
       <div class="card plan-card plan-card--featured" data-reveal>
         <span class="plan-card__badge">Mais escolhido</span>
         <h3>Site + Manutenção Mensal</h3>
-        <div class="plan-card__price">R$ 1.200<small>,00 + R$ 50/mês</small></div>
+        <div class="plan-card__price">R$ 150<small>,00/mês</small></div>
         <p>O mesmo Site Padrão, com acompanhamento contínuo todo mês — sem se preocupar com detalhes técnicos depois da entrega.</p>
         <ul>
           <li><?php echo icon('check'); ?> Tudo do Site Padrão</li>

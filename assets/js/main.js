@@ -56,17 +56,17 @@ document.addEventListener("DOMContentLoaded", function () {
   });
 
   // ---------- Hero carousel (troca automática de exemplos de site) ----------
+  // Sempre roda a troca de slides (é conteúdo informativo, não um efeito decorativo):
+  // com "reduzir movimento" ativado no sistema, só troca sem o crossfade suave.
   var carouselSlides = document.querySelectorAll(".hero-carousel__slide");
   if (carouselSlides.length > 1) {
-    var reduceMotion = window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches;
-    if (!reduceMotion) {
-      var carouselIndex = 0;
-      setInterval(function () {
-        carouselSlides[carouselIndex].classList.remove("is-active");
-        carouselIndex = (carouselIndex + 1) % carouselSlides.length;
-        carouselSlides[carouselIndex].classList.add("is-active");
-      }, 3200);
-    }
+    var carouselReduceMotion = window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+    var carouselIndex = 0;
+    setInterval(function () {
+      carouselSlides[carouselIndex].classList.remove("is-active");
+      carouselIndex = (carouselIndex + 1) % carouselSlides.length;
+      carouselSlides[carouselIndex].classList.add("is-active");
+    }, carouselReduceMotion ? 4200 : 3200);
   }
 
   // ---------- Animated stat counters ----------
