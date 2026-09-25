@@ -16,6 +16,7 @@
           <li><a href="/#como-funciona">Como Funciona</a></li>
           <li><a href="/#depoimentos">Depoimentos</a></li>
           <li><a href="/#planos">Planos</a></li>
+          <li><a href="/jurifacil.php">Jurifácil</a></li>
         </ul>
       </div>
       <div>

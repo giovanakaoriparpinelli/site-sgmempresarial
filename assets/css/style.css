@@ -224,6 +224,11 @@ p { margin: 0 0 1em; color: var(--ink-soft); }
   }
   .nav__links.is-open { transform: translateY(0); opacity: 1; pointer-events: auto; }
   .nav__links a { font-size: 1.1rem; }
+  .nav__login {
+    margin-top: 10px;
+    padding-top: 22px;
+    border-top: 1px solid var(--border);
+  }
   .nav__toggle { display: block; order: 2; }
   .btn--header { order: 1; }
 }
