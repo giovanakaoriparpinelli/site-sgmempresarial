@@ -1,2 +1,7 @@
 .DS_Store
 Thumbs.db
+
+# Mantidas apenas localmente, a pedido do Mauro (25/09/2026)
+/assets/img/logo/
+/assets/img/posts/
+/assets/img/rh/
