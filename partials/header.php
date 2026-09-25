@@ -83,7 +83,7 @@ function icon($name) {
       <span class="brand__mark"><img src="/assets/img/logo-sgm.png" alt="SGM Empresarial"></span>
       <span class="brand__name">
         <span class="brand__title">SGM Empresarial</span>
-        <small>Site profissionais | Presença digital</small>
+        <small>Sites profissionais | Presença digital</small>
       </span>
     </a>
 
