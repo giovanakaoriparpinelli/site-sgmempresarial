@@ -170,7 +170,7 @@ p { margin: 0 0 1em; color: var(--ink-soft); }
   background: rgba(9, 11, 16, 0.6);
   backdrop-filter: saturate(160%) blur(14px);
 }
-.site-header .container { display: flex; align-items: center; justify-content: space-between; height: 78px; }
+.site-header .container { display: flex; align-items: center; justify-content: space-between; height: 78px; max-width: 1320px; }
 .brand { display: flex; align-items: center; gap: 14px; font-family: var(--font-display); font-weight: 600; font-size: 1.15rem; }
 .brand__mark {
   width: 54px;
