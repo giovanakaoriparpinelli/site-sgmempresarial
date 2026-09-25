@@ -230,7 +230,7 @@ p { margin: 0 0 1em; color: var(--ink-soft); }
     border-top: 1px solid var(--border);
   }
   .nav__toggle { display: block; order: 2; }
-  .btn--header { order: 1; }
+  .btn--header { order: 1; padding: 8px 14px; font-size: 0.78rem; }
 }
 
 /* ---------- Hero ---------- */
