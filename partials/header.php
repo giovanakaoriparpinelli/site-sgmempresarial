@@ -99,7 +99,6 @@ function icon($name) {
         <a href="/#planos" class="<?php echo $activeNav === 'planos' ? 'is-active' : ''; ?>">Planos</a>
         <a href="/jurifacil.php" class="<?php echo $activeNav === 'jurifacil' ? 'is-active' : ''; ?>">Jurifácil</a>
         <a href="/#contato" class="<?php echo $activeNav === 'contato' ? 'is-active' : ''; ?>">Contato</a>
-        <a href="https://jurifacil.sgmempresarial.com.br/login" class="nav__login">Acessar Jurifácil</a>
       </div>
       <a class="btn btn--primary btn--sm btn--header" target="_blank" rel="noopener"
          href="<?php echo waLink($whatsappNumber, 'Olá! Vim pelo site e gostaria de solicitar um orçamento para meu site.'); ?>">
