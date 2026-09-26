@@ -9,9 +9,9 @@ include __DIR__ . "/partials/header.php";
   <div class="container" data-reveal>
     <span class="eyebrow">Produto próprio</span>
     <h1>Jurifácil</h1>
-    <p class="lede">Além de criar sites para outras empresas, a SGM Empresarial também desenvolve seus próprios produtos de tecnologia. O Jurifácil é um sistema de gestão jurídica pensado para o dia a dia real de advogados e escritórios — simples, leve e seguro, sem a complexidade dos grandes sistemas do mercado.</p>
-    <div style="margin-top:28px;">
-      <a class="btn btn--primary" href="https://jurifacil.sgmempresarial.com.br/login">
+    <p class="lede" style="max-width:none;">Além de criar sites para outras empresas, a SGM Empresarial também desenvolve seus próprios produtos de tecnologia. O Jurifácil é um sistema de gestão jurídica pensado para o dia a dia real de advogados e escritórios — simples, leve e seguro, sem a complexidade dos grandes sistemas do mercado.</p>
+    <div style="margin-top:32px;">
+      <a class="btn btn--primary btn--jumbo" href="https://jurifacil.sgmempresarial.com.br/login">
         Acesse seu portal exclusivo → Jurifácil
       </a>
     </div>

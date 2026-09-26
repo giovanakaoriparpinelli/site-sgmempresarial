@@ -154,6 +154,22 @@ p { margin: 0 0 1em; color: var(--ink-soft); }
 }
 .btn--ghost:hover { border-color: var(--accent-2); color: var(--accent-2); }
 .btn--sm { padding: 10px 20px; font-size: 0.85rem; }
+.btn--jumbo {
+  padding: 22px 44px;
+  font-size: 1.2rem;
+  font-weight: 700;
+  animation: jumboPulse 2.6s ease-in-out infinite;
+}
+@keyframes jumboPulse {
+  0%, 100% { box-shadow: 0 14px 40px -8px rgba(168, 85, 247, 0.75); }
+  50% { box-shadow: 0 16px 52px -4px rgba(168, 85, 247, 1); }
+}
+@media (prefers-reduced-motion: reduce) {
+  .btn--jumbo { animation: none; }
+}
+@media (max-width: 640px) {
+  .btn--jumbo { padding: 18px 30px; font-size: 1.05rem; width: 100%; text-align: center; justify-content: center; }
+}
 
 /* ---------- Header ---------- */
 .site-header {
@@ -227,6 +243,10 @@ p { margin: 0 0 1em; color: var(--ink-soft); }
   .nav__links a { font-size: 1.1rem; }
   .nav__toggle { display: block; order: 2; }
   .btn--header { order: 1; padding: 8px 14px; font-size: 0.78rem; }
+  .brand { gap: 10px; min-width: 0; }
+  .brand__mark { width: 40px; height: 40px; }
+  .brand__title { font-size: 1rem; }
+  .brand__name small { display: none; }
 }
 
 /* ---------- Hero ---------- */
